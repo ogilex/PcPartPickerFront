@@ -6,7 +6,7 @@ import Login from '@/views/Login.vue';
 import Builds from '@/views/Builds.vue';
 import MyBuilds from '@/views/MyBuilds.vue'
 import SingleBuild from '@/views/SingleBuild.vue'
-
+import CreateBuild from '@/views/CreateBuild.vue'
 Vue.use(VueRouter);
 
 const routes = [
@@ -39,6 +39,11 @@ const routes = [
     path: '/build/:id',
     name: 'SingleBuild',
     component: SingleBuild
+  },
+  {
+    path: '/create-build',
+    name: 'CreateBuild',
+    component: CreateBuild
   }
 ];
 

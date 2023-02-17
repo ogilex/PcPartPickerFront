@@ -9,13 +9,13 @@
 
         <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
-            <b-nav-item to="/">Home</b-nav-item>
-          </b-navbar-nav>
-          <b-navbar-nav>
             <b-nav-item to="/builds">Builds</b-nav-item>
           </b-navbar-nav>
           <b-navbar-nav>
             <b-nav-item to="/mybuilds">My Builds</b-nav-item>
+          </b-navbar-nav>
+          <b-navbar-nav>
+            <b-nav-item to="/create-build">Create Build</b-nav-item>
           </b-navbar-nav>
 
           <b-navbar-nav class="ml-auto">
